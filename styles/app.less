@@ -1,0 +1,59 @@
+@import "~bootstrap/less/bootstrap.less";
+@import "~bootswatch/paper/variables.less";
+@import "~bootswatch/paper/bootswatch.less";
+@import "mediaqueries.less";
+@import "animations.less";
+
+html {
+  background: linear-gradient(3deg, #FFF, #EEE);
+  background-size: 400% 400%;
+  -webkit-animation: BodyFade 18s ease infinite;
+  -moz-animation: BodyFade 18s ease infinite;
+  animation: BodyFade 18s ease infinite;
+}
+body {
+  height: 100%;
+  background:none;
+}
+.messages {
+  border-bottom:1px solid #ddd;
+  max-height:150px;
+  display:block;
+  overflow-y:scroll;
+}
+.users {
+  max-height:150px;
+  display:block;
+  overflow-y:scroll;
+  ul {
+    padding:0;
+    li {
+      list-style-type:none;
+    }
+  }
+}
+.page-header {
+  text-align:center;
+  margin:23px 0 12px;
+}
+/* Cursor for clients */
+.client {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border:1px dotted rgba(255,255,255,0.75);
+  z-index:100;
+}
+input[type="text"].form-control {
+  -webkit-transition-duration:1s;
+  -webkit-transition-property:border-color;
+}
+.navbar {
+  border-radius:4px;
+}
+form {
+  text-align:center;
+}
+form .btn-primary {
+  margin-top:10px;
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.woff2
+*.svg
+*.ttf
+*.eot
+*.woff
+*#*
+.*#*
+*.log
+*.log.*
+.DS*

@@ -4,8 +4,7 @@ import { Panel } from 'react-bootstrap'
 import UsersList from './UsersList.jsx'
 import MessageForm from './MessageForm.jsx'
 import MessageList from './MessageList.jsx'
-const connection_str = 'http://104.236.137.110:3000';
-//const connection_str = 'http://' + document.domain + ':' + 3000;
+const connection_str = 'http://' + document.domain + ':' + 3000;
 const io = require('socket.io-client');
 const socket = io.connect(connection_str);
 
